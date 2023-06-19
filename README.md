@@ -1,11 +1,11 @@
-About r-calf
-============
+About r-calf-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-calf-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=CALF
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-calf-feedstock/blob/main/LICENSE.txt)
 
 Summary: Contains greedy algorithms for coarse approximation linear functions.
 

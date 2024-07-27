@@ -1,6 +1,5 @@
 {% set version = '1.0.17' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-calf
@@ -13,8 +12,7 @@ source:
   sha256: 71e6972b7effd2d0a97c4b883be239bf35d6012be5c0e82c366f2402ee0b3d08
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/

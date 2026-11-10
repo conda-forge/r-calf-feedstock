@@ -1,4 +1,4 @@
-{% set version = '1.0.17' %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/CALF_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/CALF/CALF_{{ version }}.tar.gz
-  sha256: 71e6972b7effd2d0a97c4b883be239bf35d6012be5c0e82c366f2402ee0b3d08
+  sha256: 669653e947a9300b9de1cb687a2bf6858e2f3aa214bcd5af8992d74a96b60266
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
